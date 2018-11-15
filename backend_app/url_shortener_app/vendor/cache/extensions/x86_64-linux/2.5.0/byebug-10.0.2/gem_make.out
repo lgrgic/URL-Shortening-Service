@@ -1,0 +1,19 @@
+current directory: /mnt/c/Users/Bibici/Desktop/Daimler/backend_app/url_shortener_app/vendor/cache/gems/byebug-10.0.2/ext/byebug
+/home/adduser/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181115-275-tqzpff.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/Bibici/Desktop/Daimler/backend_app/url_shortener_app/vendor/cache/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /mnt/c/Users/Bibici/Desktop/Daimler/backend_app/url_shortener_app/vendor/cache/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /mnt/c/Users/Bibici/Desktop/Daimler/backend_app/url_shortener_app/vendor/cache/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20181115-275-1l5co7d/byebug

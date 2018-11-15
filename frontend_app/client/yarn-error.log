@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /home/adduser/.rvm/gems/ruby-2.5.1/bin:/home/adduser/.rvm/gems/ruby-2.5.1@global/bin:/home/adduser/.rvm/rubies/ruby-2.5.1/bin:/home/adduser/bin:/home/adduser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/MongoDB/Server/4.0/bin:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Users/Bibici/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bibici/AppData/Local/atom/bin:/mnt/c/ProgramData/Bibici/atom/bin:/mnt/c/Users/Bibici/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Bibici/AppData/Local/atom/bin:/snap/bin:/home/adduser/.rvm/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EINVAL: invalid argument, lstat '/mnt/c/Users/Bibici/Desktop/Daimler/frontend_app/client/node_modules/acorn-globals/index.js'
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "axios": "^0.16.2",
+      "materialize-css": "^0.100.2",
+      "react": "^16.0.0-alpha.13",
+      "react-dom": "^16.0.0-alpha.13",
+      "react-router-dom": "^4.2.2",
+      "react-scripts": "1.0.10"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
